@@ -1,0 +1,7 @@
+vec=c(1,2,3,4)
+print("Sum of the vector: ")
+print(sum(vec))
+print("Mean of the vector: ")
+print(mean(vec))
+print("product of the vector:")
+print(prod(vec))

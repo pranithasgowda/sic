@@ -1,0 +1,5 @@
+x=c(10,20,30,20,20,25,9,26)
+print("Original vectors: ")
+print(x)
+print("Count specific value(20) in above vector: ")
+print(sum(x==20))

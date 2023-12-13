@@ -1,0 +1,10 @@
+b<-matrix(c(11,16,25,36,45,86,79,52,12,15,86,45,96,25,36,48),nrow=4,ncol=4,byrow=TRUE)
+print("The matrix b is: ")
+print(b)
+print("The element in 1 row 3rd coloumn: ")
+print(b[1,3])
+print("By adding elements in 5th column: ")
+add_matrix<-cbind(b,c(10,11,12,13))
+print(add_matrix)
+sub_mat<-add_matrix[-3,]
+print(sub_mat)
